@@ -1,0 +1,141 @@
+@media screen and (max-width:1000px){
+    .home{
+        main{
+            flex-direction:row;
+            align-items:flex-end;
+        }
+
+        main::before{
+            width:60%;
+        }
+    }
+
+    .home2{
+        height:auto;
+        flex-direction:column;
+
+        img{
+            width:80%;
+        }
+        div{
+            width:100%;
+            height:auto;
+
+            h2{
+                text-align:center;
+            }
+        }
+    }
+    .home4{
+        .home4-container{
+            width:100%;
+        }
+    }
+    #social-media-icons{
+        height:6rem;
+        width:6rem;
+
+        svg{
+            font-size:25px;
+        }
+    }
+    .contact{
+        form{
+            width:80%;
+        }
+    }
+}
+
+@media screen and (max-width:570px){
+    .home{
+        main{
+            h1{
+                font-size:3rem;
+            }
+            p{
+                display: none;
+            }
+        }
+        main::before{
+            width:90%;
+        }
+    }
+
+    .home2{
+        padding:20px;
+       
+        div{
+            
+            h2{
+                font-size:1.7rem;
+            }
+            p{
+                font-size:12px;
+                font-weight:100;
+            }
+        }
+    }
+
+    .home3{
+        div{
+            width:90%;
+        }
+        h1{
+            font-size:25px;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+
+    .home4{
+        height:auto;
+
+        .home4-container{
+    
+            article{
+                width: 60%;
+                margin:auto;
+              
+            }
+        }
+       
+
+        #social-media-icons{
+            height:11rem;
+            width:11rem;
+            svg{
+                font-size:53px;
+            }
+        }
+    }
+
+    .contact{
+        .question{
+            h2{
+                font-size:30px;
+            }
+            h4{
+                font-size:17px;
+            }
+            p{
+                width:90%;
+                margin:auto;
+            }
+        }
+        form{
+            width:90%;
+        }
+    }
+    nav{
+        justify-content:center;
+        padding:0.6rem;
+        main{
+            justify-content: center;
+        }
+        h1{
+            display:none;
+            
+        }
+    }
+}
